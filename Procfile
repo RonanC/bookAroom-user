@@ -1,1 +1,1 @@
-node Angular/app.js && node Node/server.js
+Web: node Angular/app.js node Node/server.js
