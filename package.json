@@ -4,7 +4,7 @@
   "description": "BOI user webportal for viewing and booking (work benches).",
     "main": "Angular/app.js",
   "scripts": {
-      "start": "node Angular/app.js && node Node/server.js",
+      "start": "node Angular/server.js && node Node/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

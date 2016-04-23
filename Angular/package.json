@@ -4,6 +4,7 @@
   "description": "Book a room application for users.",
   "main": "app.js",
   "dependencies": {
+    "angular": "^1.5.5",
     "serve": "^1.4.0"
   },
   "devDependencies": {},
