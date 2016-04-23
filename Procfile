@@ -1,1 +1,1 @@
-web: node Angular/server.js node Node/server.js
+web: node server.js

@@ -1,20 +1,21 @@
 {
   "name": "bookaroom-user",
   "version": "1.0.0",
-  "description": "BOI user webportal for viewing and booking (work benches).",
-    "main": "Angular/app.js",
+  "description": "Book a room application for users.",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "express": "^4.13.4",
+    "serve": "^1.4.0",
+        "cors": "^2.3.1",
+    "dotenv": "^0.2.8",
+    "express": "~3.3.8",
+    "express-jwt": "0.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
-      "start": "node Angular/server.js && node Node/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VytasHub/bookAroom-user.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VytasHub/bookAroom-user/issues"
-  },
-  "homepage": "https://github.com/VytasHub/bookAroom-user#readme"
+  "author": "Vytas",
+  "license": "ISC"
 }
