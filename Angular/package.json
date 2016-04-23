@@ -1,0 +1,15 @@
+{
+  "name": "bookaroom-user",
+  "version": "1.0.0",
+  "description": "Book a room application for users.",
+  "main": "app.js",
+  "dependencies": {
+    "serve": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vytas",
+  "license": "ISC"
+}
