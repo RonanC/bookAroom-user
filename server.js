@@ -9,7 +9,7 @@ dotenv.load();
 
 //var port = process.env.PORT || 8080;
 //var port = process.env.PORT || 3001;
-var port = 3001;
+var port = 42035;
 
 var authenticate = jwt({
   secret: new Buffer(process.env.AUTH0_CLIENT_SECRET, 'base64'),
